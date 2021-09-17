@@ -10,7 +10,7 @@
 nav {
     background-color: var(--primary-color);
     color: white;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     border-bottom-left-radius: 2rem;
     font-size: x-large;
@@ -20,7 +20,7 @@ nav {
 }
 
 textarea {
-    padding: 2rem;
+    padding: 1rem;
     width: 80%;
     display: block;
     margin: auto;
@@ -55,6 +55,10 @@ textarea {
     border-radius: 1rem;
     margin: auto;
     margin-top: 1rem;
+    padding: 1rem;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+
 }
 
 .footer{
@@ -69,7 +73,8 @@ textarea {
 
 .footer-heading{
     font-weight: bolder;
-    font-size: large;
+    font-size: xx-large;
+    word-spacing: 0.5rem;
 }
 
 .footer ul{
@@ -85,8 +90,4 @@ textarea {
 .list-item-inline {
     display: inline;
     padding: 1rem;
-}
-
-.footer-footer{
-    margin-top: 2rem;
 }
