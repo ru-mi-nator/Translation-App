@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+:root{
+    --primary-color: #1F2937;
+
+}
+
+nav {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-bottom-left-radius: 2rem;
+    font-size: x-large;
+    font-family: 'Lobster', cursive;
+    word-spacing: 1rem;
+    margin-bottom: 2rem;
+}
+
+textarea {
+    padding: 2rem;
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    margin-top: 2rem;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: larger;
+}
+
+.output-head{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family:'Patrick Hand', cursive;
+    word-spacing: 0.5rem;
+}
+
+#output{
+    border: 1px solid black;
+    width: 60%;
+    height: 10vh;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 2rem;
+    text-align: center;
+    border-top-right-radius: 2rem;
+    font-family: 'Lobster', cursive;
+    margin-top: 2rem;
+    color: white;
+}
+
+.footer-heading{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+    padding: 0.5rem;
+}
+
+.footer .socail-links{
+    align-items: center;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 1rem;
+}
+
+.footer-footer{
+    margin-top: 2rem;
+}
